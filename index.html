@@ -21,7 +21,14 @@
     footer{padding:32px 0 44px;text-align:center;color:#a6a6a7;font-size:13px}footer a{display:inline-flex;gap:8px;align-items:center;color:#fff;margin-bottom:14px}footer a:hover{text-decoration:underline}footer p{margin:6px 0}
     @media(max-width:700px){.container{width:min(100% - 24px,520px)}header{padding:20px 4px 15px}.hero{padding:32px 22px 225px;min-height:445px;background-position:50% 50%}h1{font-size:38px;letter-spacing:-1.4px}.intro{font-size:15px}.section-head{margin-top:28px}.section-head h2{font-size:23px}.cards{grid-template-columns:1fr}.car{min-height:255px;padding:22px;background-size:cover,cover}.brand{font-size:29px}.car.jetour{background-position:center,50% 57%}.car.tenet{background-position:center,50% 52%}.car.plus{background-position:center,50% 52%}.car-bottom{max-width:255px}.cta{max-width:255px}.video{padding:16px;min-height:100px}.video strong{font-size:18px}.play{width:54px;height:54px}.section-head p{display:none}}
     @media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important}}
-  </style>
+  @media (max-width: 700px) {
+  .hero {
+    min-height: 0;
+    padding: 32px 22px 180px;
+    background-position: center bottom;
+    background-size: 100% auto;
+  }
+}</style>
 </head>
 <body>
   <div class="container">
